@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ...........................containar start........................ */
+.containar{
+    max-width: 1320px;
+    margin:  auto;
+    
+}
+.containar-fuid{
+    width: 100%;
+    
+}
+.bg{
+    background-color: gainsboro;
+}
+/* ...........................containar end........................ */
+
+ 
+
+
+
+/* ...........................flex start........................... */
+.d-flex{
+    display: flex;
+}
+
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.align-c{
+    align-items: center;
+    
+}
+
+.column{
+    flex-direction: column;
+    
+}
+
+
+/* ...........................flex end........................... */
+
+
+
+
+
+/* ...........................border start........................  */
+
+.b-red{
+    border: 1px solid red;
+}
+.b-green{
+    border: 1px solid green;
+}
+.b-black{
+    border: 1px solid black;
+}
+.b-blue{
+    border: 1px solid blue;
+}
+.b-orange{
+    border: 1px solid orange;
+}
+
+
+/* ...........................border end........................  */
+
+
+
+/* ...........................margin start........................  */
+
+.m-60{
+    margin: 60px 0px 0px 0px;
+}
+
+/* ...........................margin end........................  */
+
+
+
+/* ...........................padding start........................  */
+.p-10{
+    padding: 10px;
+}
+.p-30{
+    padding: 30px;
+}
+.p-top{
+    padding-top: 50px;
+} 
+ 
+ /* ...........................padding end........................  */
+
+
+
+
+/* ...........................hight start........................  */
+/* 
+.h-500{
+   height: 500px;
+} */
+
+
+/* ...........................hight end........................  */
+
+
+.box-s{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/* ...........................text start........................  */
+
+h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+   
+}
+
+h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h3:hover{
+    color: rgb(0, 174, 255);
+    
+}
+P{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 2;
+}
+button{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(221, 126, 38);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    scale: 1;
+    transition: all .4s ;
+}
+button:hover{
+    transform: scale(1.1);
+    transform: translateY(-3px);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+    background-color: rgb(71, 145, 241);
+}
+ 
+ /* ...........................text end........................  */
+
+
+
+
+/* ...........................img start........................  */
+img{
+    width: 100%;
+    height: 60%;
+     
+     
+}
+
+img{
+    scale: 1;
+    transition: all .4s ;
+}
+img:hover{
+    transform: scale(1.1);
+    transform: translateY(-10px);
+    box-shadow: rgb(26, 27, 27) 0px 20px 30px 10px;
+   
+}
+.radius-10{
+    border-radius:20px
+}
+
+.shadow{
+    box-shadow: 1px 1px 5px black;
+}
+/* ...........................img end........................  */
